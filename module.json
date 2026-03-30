@@ -1,0 +1,39 @@
+{
+    "id": "calendaria-phone-app",
+    "title": "Smartphone Widget – Calendaria Integration",
+    "version": "0.1.0",
+    "description": "Replaces the built-in Smartphone Widget calendar app with a full Calendaria integration.",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "authors": [
+        {
+            "name": "Wyatt Newton",
+            "flags": {}
+        }
+    ],
+    "esmodules": [
+        "scripts/main.mjs"
+    ],
+    "flags": {},
+    "relationships": {
+        "requires": [
+            {
+                "id": "smartphone-widget",
+                "type": "module"
+            },
+            {
+                "id": "calendaria",
+                "type": "module"
+            }
+        ]
+    },
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ]
+}
