@@ -6,7 +6,7 @@ Works as a standalone Gregorian calendar without Calendaria installed.
 
 ## Requirements
 
-- **Foundry VTT** v13+
+- **Foundry VTT** v13+ (Works on v14 but note that Calendaria does not as of 04/19/2026)
 - **Smartphone Widget** module (required)
 - **Calendaria** module (recommended, enables fantasy calendars and full note integration)
 
